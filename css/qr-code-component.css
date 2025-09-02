@@ -1,0 +1,81 @@
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #d6e2f0ff;
+}
+* {
+    box-sizing: border-box;
+}
+:root {
+    --card-background-color: #ffffffff;
+    --p_color: #68778dff;
+    --p_bigger-color: #1f3251ff;
+    --p_Font_size: 15px;
+}
+
+main {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) {
+    main {
+        width: 350px;
+    }
+}
+section {
+    background-color: var(--card-background-color);
+    padding: 15px;
+    border-radius: 20px;
+}
+section img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+section .text {
+    text-align: center;
+    padding: 10px;
+}
+section .text p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--p_bigger-color);
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    section .text p:nth-child(1) {
+        font-size: 25px;
+    }
+}
+section .text p:nth-child(2) {
+    font-size: 15px;
+    color: var(--p_color);
+    line-height: 1.4;
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+    section .text p:nth-child(2) {
+        font-size: 20px;
+    }
+}
+footer {
+    width: 60%;
+    text-align: center;
+    font-size: 0.7rem;
+    margin: 40px auto;
+    color: #2196f3;
+    line-height: 1.5;
+}
+footer span {
+    font-size: 0.8rem;
+    color: #3f51b5;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+}
+@media (max-width: 768px) {
+    footer {
+        width: 50%;
+    }
+}
