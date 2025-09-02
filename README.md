@@ -10,7 +10,7 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/shadymo2291/qr-code-component-solution
 
 ### Built with
 
@@ -20,7 +20,7 @@
 
 ### What I learned
 
-in this project i used some CSS properties to help for responsive font size, such as @media
+In this project, I used some CSS properties to help with responsive font size, such as @media
 
 To see how you can add code snippets, see below:
 
